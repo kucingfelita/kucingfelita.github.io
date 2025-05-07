@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Van</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a
+            href="https://open.spotify.com/playlist/3uToDc4dl88b7MO0XTxP7C?si=AJJ0QXw9Tbu4GZI5LY4haA"
+            target="_blank"
+            >Van</a
+          >
+        </div>
+        <i class="bi bi-list" id="menu-icon"></i>
+        <nav class="navbar">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang Saya</a>
+          <a href="#education">Pendidikan</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#portfolio">Projek</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+      </header>
+
+      <div class="hero" id="home">
+        <div class="hero-image">
+          <img src="assets/Egie.jpg" alt="Hero Image" />
+        </div>
+        <div class="hero-content">
+          <h1>Hai, Saya Egie Hariansyah</h1>
+          <p>
+            Saya adalah seorang pelajar yang berminat pada pengembangan
+            perangkat lunak dan pengembangan web.
+          </p>
+          <!-- <a download href="#" class="btn">Download CV</a> -->
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+          <p>
+            Saya, Siswa SMKN 1 Bawang kelahiran Banyuwangi, 12 April 2008. Saya
+            memiliki minat pada bidang Teknik Informasi, khususnya pengembangan
+            perangkat lunak dan pengembangan web. Tujuan saya adalah menjadi
+            ahli di bidang tersebut, dengan terus belajar dan mengembangkan
+            diri. Saya aktif dalam kegiatan sekolah terkait, dan menjunjung
+            tinggi nilai ketekunan serta integritas.
+          </p>
+          <div class="skills">
+            <h3>Keterampilan</h3>
+            <div class="skills-item">
+              <p>Saya bisa menggunakan HTML</p>
+              <p>Saya bisa menggunakan CSS</p>
+              <p>Saya bisa menggunakan JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education" id="education">
+        <h2>Pendidikan</h2>
+        <div class="education-grid">
+          <div class="education-item">
+            <h3>SD Negeri 1 Bawang</h3>
+            <p>2015 - 2021</p>
+          </div>
+          <div class="education-item">
+            <h3>SMP Negeri 1 Bawang</h3>
+            <p>2021 - 2024</p>
+          </div>
+          <div class="education-item">
+            <h3>SMK Negeri 1 Bawang</h3>
+            <p>2024 - Sekarang</p>
+            <p>Jurusan Rekayasa Perangkat Lunak</p>
+          </div>
+        </div>
+      </div>
+      <div class="experience" id="experience">
+        <h2>Pengalaman</h2>
+        <div class="experience-grid">
+          <div class="experience-item">
+            <h3>Anggota English Club</h3>
+            <p>2022</p>
+            <p>
+              Saya mengikuti extra kurikuler English Club di SMP Negeri 1 Bawang
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Anggota Web Design</h3>
+            <p>2024</p>
+            <p>
+              Saya mengikuti extra kurikuler Web Design di SMK Negeri 1 Bawang
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio" id="portfolio">
+        <h2>Projek</h2>
+        <div class="portfolio-grid potfolio-slider">
+          <div class="portfolio-item active">
+            <img src="assets/yks.jpg" alt="" />
+            <h3>Portfolio kelompok Figma</h3>
+            <p>
+              Saya membuat user interface rancangan aplikasi berjudul YUKAES
+            </p>
+            <a
+              href="https://www.figma.com/design/7xGYttf0QhejKbLa6XvIK3/Kelompok-2?node-id=0-1&t=SYHeWJAd3Dp2mmeg-1"
+              target="_blank"
+              class="btn"
+              >Detail</a
+            >
+          </div>
+          <div class="portfolio-item port2">
+            <img src="assets/post.jpg" alt="" />
+            <h3>Poster Promosi</h3>
+            <p>Saya membuat poster promosi McDonals dengan Genshin Impact</p>
+            <a download href="assets/Flyer1_19712.png" class="btn">Download</a>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <h2>Kontak</h2>
+        <div class="contact-wrapper">
+          <div class="contact-left">
+            <h3>Kirim Pesan</h3>
+            <form
+              action="mailto:hariansyahegie@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-group">
+                <label for="name">Nama:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nama Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tulis pesan Anda..."
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn">Kirim Pesan</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-right">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d831.618411212945!2d109.61410296835159!3d-7.402859291762464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1745819680002!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://tiktok.com/@kucing_felita" target="_blank"
+            ><img src="assets/TikTok_Logo.jpeg" alt=""
+          /></a>
+          <a href="https://instagram.com/kucing_felita" target="_blank"
+            ><img src="assets/Instagram_logo.webp" alt=""
+          /></a>
+          <a href="https://youtube.com/@vandemorp" target="_blank"
+            ><img src="assets/Youtube_logo.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <footer>
+        <p>
+          &copy;2025 Ethan Timmy Van Harry. All rights reserved. The Tortured
+          Poets Department Era.
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
